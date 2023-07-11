@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.leaflet-popup-content {
+  text-align: center;
+}
+
+.legend {
+  padding: 10px;
+  font-family: Sanchez, serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color:rgb(255, 255, 255);
+  background-color: rgb(43, 54, 29);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend .l10 {
+  color: #FFEDA0;
+}
+
+.legend .l30 {
+  color: #FEB24C;
+}
+
+.legend .l50 {
+  color: #FD8D3C;
+}
+
+.legend .l70 {
+  color: #E31A1C;
+}
+
+.legend .l90 {
+  color: #BD0026;
+}
+
+.legend .g90 {
+  color: #800026;
+}
